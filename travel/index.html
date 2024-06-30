@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel agancy</title>
+
+
+    <link rel="shortcut icon" href="image/logo.png" type="image/svg+xml">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <!-- HEADER-->
+
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
+        <div class="header-top">
+            <div class="container">
+
+                <a href="tel:+01123456790" class="helpline-box">
+
+                    <div class="icon-box">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="helpline-title">contact :</p>
+
+                        <p class="helpline-number">+212 565 376 58</p>
+                    </div>
+
+                </a>
+
+                <a href="#" class="logo">
+                    <img src="image/logo.png" width="50px" alt="Tourly logo">
+                </a>
+
+                <div class="header-btn-group">
+
+                    <button class="search-btn" aria-label="Search">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <img src="image/logo.png" alt="Tourly logo">
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                    </div>
+
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="#home" class="navbar-link" data-nav-link>home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-link" data-nav-link>about us</a>
+                        </li>
+
+                        <li>
+                            <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+                        </li>
+
+                        <li>
+                            <a href="#package" class="navbar-link" data-nav-link>packages</a>
+                        </li>
+
+                        <li>
+                            <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+                        </li>
+
+                        <li>
+                            <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <button class="btn btn-primary">Book Now</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+
+            <!-- HERO-->
+
+            <section class="hero" id="home">
+                <div class="container">
+
+                    <h2 class="h1 hero-title">Discover Morocco: A Land of Beauty and Culture</h2>
+
+                    <p class="hero-text">
+                        Nestled in the northwest corner of Africa, Morocco is a land where ancient history and modern
+                        vibrancy coexist in perfect harmony. From its bustling cities and serene deserts to its majestic
+                        mountains and pristine beaches, Morocco offers a diverse tapestry of experiences for every
+                        traveler.
+                    </p>
+
+                    <div class="btn-group">
+                        <button class="btn btn-primary">Learn more</button>
+
+                        <button class="btn btn-secondary">Book now</button>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!-- TOUR SEARCH-->
+
+            <section class="tour-search">
+                <div class="container">
+
+                    <form action="" class="tour-search-form">
+
+                        <div class="input-wrapper">
+                            <label for="destination" class="input-label">Search Destination*</label>
+
+                            <input type="text" name="destination" id="destination" required
+                                placeholder="Enter Destination" class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="people" class="input-label">Pax Number*</label>
+
+                            <input type="number" name="people" id="people" required placeholder="No.of People"
+                                class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="checkin" class="input-label">Checkin Date**</label>
+
+                            <input type="date" name="checkin" id="checkin" required class="input-field">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="checkout" class="input-label">Checkout Date*</label>
+
+                            <input type="date" name="checkout" id="checkout" required class="input-field">
+                        </div>
+
+                        <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+                    </form>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--POPULAR-->
+
+            <section class="popular" id="destination">
+                <div class="container">
+
+                    <p class="section-subtitle">Uncover place</p>
+
+                    <h2 class="h2 section-title">Popular destination</h2>
+
+                    <p class="section-text">
+                        Morocco is a country rich in culture, history, and natural beauty, offering a wide range of
+                        destinations that appeal to various interests. Here are some of the most popular destinations in
+                        Morocco.
+                    </p>
+
+                    <ul class="popular-list">
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="image/rabat.png" alt="rabat, maroc" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Morocco</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Rabat</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Hassan Tower: An unfinished minaret and part of a grand mosque project from the
+                                        12th century.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="image/mrakech.png" alt="Burj khalifa, dubai" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Morocco</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Marrakech</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Djemaa el-Fna: The main square of Marrakech, bustling with activity, food
+                                        stalls, and street performers.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="popular-card">
+
+                                <figure class="card-img">
+                                    <img src="image/chfchawn.png" alt="Kyoto temple, japan" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <div class="card-rating">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+
+                                    <p class="card-subtitle">
+                                        <a href="#">Morocco</a>
+                                    </p>
+
+                                    <h3 class="h3 card-title">
+                                        <a href="#">Chefchaouen</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The Blue City: Known for its striking blue-washed buildings and charming
+                                        streets.
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-primary">More destintion</button>
+
+                </div>
+            </section>
+
+            <!--PACKAGE-->
+
+            <section class="package" id="package">
+                <div class="container">
+
+                    <p class="section-subtitle">Popular Packeges</p>
+
+                    <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+                    <p class="section-text">
+                        Morocco is a country rich in culture, history, and natural beauty, offering a wide range of
+                        destinations that appeal to various interests. Here are some of the most popular destinations in
+                        Morocco:
+                    </p>
+
+                    <ul class="package-list">
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="image/agadir.png" alt="Experience The Great Holiday On Beach"
+                                        loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Experience The Great Holiday On Beach Agadir Taghazout
+                                    </h3>
+
+                                    <p class="card-text">
+                                        Taghazout Beach, located near the village of Taghazout in southwestern Morocco,
+                                        is a popular destination for surfers and beach lovers.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">24H/24H</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Agadir</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(25 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        1000DH
+                                        <span>/ per person</span>
+                                    </p>
+
+                                    <button class="btn btn-secondary">Book Now</button>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="image/ouzod.png" alt="Summer Holiday To The Oxolotan River"
+                                        loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Summer Holiday to the Ouzoud Waterfalls</h3>
+
+                                    <p class="card-text">
+                                        These stunning waterfalls are one of the highest and most beautiful in Morocco.
+                                        The surrounding area is great for hiking, swimming, and picnicking.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">24H/24H</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Azilal</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(20 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        2000DH
+                                        <span>/ per person</span>
+                                    </p>
+
+                                    <button class="btn btn-secondary">Book Now</button>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="package-card">
+
+                                <figure class="card-banner">
+                                    <img src="image/swira.png" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                                </figure>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 card-title">Essaouira's Weekend Vacation</h3>
+
+                                    <p class="card-text">
+                                        Medina: A UNESCO World Heritage site with a mix of Portuguese, French, and
+                                        Berber architecture.
+                                    </p>
+
+                                    <ul class="card-meta-list">
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="time"></ion-icon>
+
+                                                <p class="text">24H/24H</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="people"></ion-icon>
+
+                                                <p class="text">pax: 10</p>
+                                            </div>
+                                        </li>
+
+                                        <li class="card-meta-item">
+                                            <div class="meta-box">
+                                                <ion-icon name="location"></ion-icon>
+
+                                                <p class="text">Essaouira</p>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
+
+                                <div class="card-price">
+
+                                    <div class="wrapper">
+
+                                        <p class="reviews">(40 reviews)</p>
+
+                                        <div class="card-rating">
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                            <ion-icon name="star"></ion-icon>
+                                        </div>
+
+                                    </div>
+
+                                    <p class="price">
+                                        3000DH
+                                        <span>/ per person</span>
+                                    </p>
+
+                                    <button class="btn btn-secondary">Book Now</button>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-primary">View All Packages</button>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--GALLERY-->
+
+            <section class="gallery" id="gallery">
+                <div class="container">
+
+                    <p class="section-subtitle">Photo Gallery</p>
+
+                    <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+                    <p class="section-text">
+                        Explore Morocco Through the Lens of Our Visitors
+                        Welcome to our Traveler's Photo Gallery, a vibrant showcase of Morocco's enchanting landscapes,
+                        bustling markets, and rich cultural heritage as seen through the eyes of those who have
+                        experienced its magic. Each photo tells a unique story, capturing moments of adventure,
+                        discovery, and connection in this captivating country.
+                    </p>
+
+                    <ul class="gallery-list">
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="image/i1.png" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="image/i2.png" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="image/i5.png" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="image/i3.png" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                        <li class="gallery-item">
+                            <figure class="gallery-image">
+                                <img src="image/i4.png" alt="Gallery image">
+                            </figure>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+
+
+
+            <!--CTA-->
+
+            <section class="cta" id="contact">
+                <div class="container">
+
+                    <div class="cta-content">
+                        <p class="section-subtitle">Call To Action</p>
+
+                        <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+                        <p class="section-text">
+                            Embark on a journey to Morocco, where every corner reveals a new story, every landscape
+                            takes your breath away, and every moment is filled with wonder. Explore the beauty, culture,
+                            and magic of Morocco – a destination like no other.
+                        </p>
+                    </div>
+
+                    <button class="btn btn-secondary">Contact Us !</button>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- FOOTER-->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="image/logo.png" alt="Tourly logo">
+                    </a>
+
+                    <p class="footer-text">
+                        Morocco is well-connected by air, with major airports in cities like Casablanca, Marrakech, and
+                        Rabat. Once you arrive, you can easily travel between cities by train, bus, or car.
+                    </p>
+
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4 class="contact-title">Contact Us</h4>
+
+                    <p class="contact-text">
+                        Feel free to contact and reach us !!
+                    </p>
+
+                    <ul>
+
+                        <li class="contact-item">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                            <a href="tel:+01123456790" class="contact-link">+212 565 376 587</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <a href="mailto:info.tourly.com" class="contact-link">travel@gmail.com</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>Rabat, Morocco</address>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-form">
+
+                    <p class="form-text">
+                        Subscribe our newsletter for more update & news !!
+                    </p>
+
+                    <form action="" class="form-wrapper">
+                        <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+    <!-- GO TO TOP-->
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
